@@ -1,0 +1,32 @@
+@media(max-width: 500px) {
+    body { 
+        overflow-x: hidden;
+    }
+    #cabecalho{
+        padding-bottom: 80px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: auto;
+    }
+    #menu a{
+        margin-right: -12px;
+        font-size: 1.0em;
+    }
+    #principal {
+        width:88vw;
+    }
+    #extras {
+        width:88vw;
+    }
+    #agradecimento {
+        width:88vw;
+        text-align: center;
+    }
+}
+@media(max-width: 395px) {
+    #menu a{
+        margin-right: -18px;
+        font-size: 0.9em;
+    }
+}
